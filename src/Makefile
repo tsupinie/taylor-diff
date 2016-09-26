@@ -3,7 +3,7 @@ LIBDIR = $(ROOTDIR)/lib
 
 LIBNAME = libtaylor
 CFLAGS = -fPIC
-OBJS = taylor.o
+OBJS = diff1_2o.o
 
 .c.o:
 	gcc $(CFLAGS) -c $<
